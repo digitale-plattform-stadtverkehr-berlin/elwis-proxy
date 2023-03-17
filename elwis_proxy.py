@@ -9,7 +9,7 @@ import os
 
 TIMEZONE = pytz.timezone("Europe/Berlin")
 
-URL = 'http://atlas.wsv.bund.de/elwis/rest/nts/messages/dateFrom/<FROM>/dateTo/<TO>'
+URL = 'https://via.bund.de/wsv/elwis/rest/nts/messages/dateFrom/<FROM>/dateTo/<TO>'
 
 
 HOST_NAME = os.environ.get('HOST')
