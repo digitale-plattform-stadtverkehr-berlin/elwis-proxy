@@ -19,6 +19,6 @@ https://www.elwis.de/DE/Service/Haftungsausschluss-und-Nutzungsbedingungen/Haftu
 ## Docker Image bauen und in GitHub Registry pushen
 
 ```bash
-> docker build -tdocker.pkg.github.com/digitale-plattform-stadtverkehr-berlin/elwis-proxy/elwis-proxy:<TAG> .
+> docker build -t docker.pkg.github.com/digitale-plattform-stadtverkehr-berlin/elwis-proxy/elwis-proxy:<TAG> .
 > docker push docker.pkg.github.com/digitale-plattform-stadtverkehr-berlin/elwis-proxy/elwis-proxy:<TAG>
 ```
